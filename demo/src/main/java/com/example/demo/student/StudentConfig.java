@@ -20,7 +20,8 @@ public class StudentConfig {
         Testing POST using postman and put in the body (name, email, dob)
      */
 
-    @Bean
+    // Beans are basically java objects
+    @Bean  
     CommandLineRunner commandLineRunner(
             StudentRepository repository){
         return args -> {
